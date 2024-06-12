@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+}
+
+.b{
+    border: 1px solid black
+}
+
+.o{
+    background-color: lightgray;
+}
+
+ol{
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+}
+
+ul{
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+}
+
+header{
+    padding-top: 20px;
+}
+
+.header-container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 55px;
+    height: 55px;
+}
+
+button{
+    background-color: lightseagreen;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: darkseagreen;
+}
+
+.nav-container{
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    margin: 5px;
+    display: flex;
+    height: 400px;
+}
+
+.main-left{
+    width: 80%;
+}
+
+.main-right{
+    width:20%;
+}
+
+.footer-container{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: last baseline;
+}
