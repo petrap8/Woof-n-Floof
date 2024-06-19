@@ -15,7 +15,7 @@ form.addEventListener("submit", function (event) {
     if (email == "") {
         document.getElementById("email-error").innerText = "Email is required";
         return false;
-    if (!email.match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/"))
+    if (!email.match(" /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/"))
         document.getElementById("email-error").innerText = "Invalid email";
     return false;
     }
