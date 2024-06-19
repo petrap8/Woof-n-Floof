@@ -15,15 +15,14 @@
         </div>
         <div class="nav-container b">
             <nav>
-                <a href="./index.html" class="b">Home</a>
-                <a href="./services.html" class="b">Services</a>
-                <a href="./contact.html" class="b">Contact us</a>
-                <a href="./about.html" class="b">About</a>
+                <a href="#services" class="b" onclick="loadContent('services')">Services</a>
+                <a href="contact.html" class="b" onclick="loadContent('contact')">Contact us</a>
+                <a href="#about"  class="b"  onclick="loadContent('about')">About</a>
             </nav>
         </div>
     </header>
     <main class="main-container b">
-        <div class="main-left b">Main content</div>
+        <div class="main-left b" id="main-content">Main content</div>
         <div class="main-right b">
             <aside>
                 <li>Image</li>
@@ -36,4 +35,7 @@
             <div class="b">Opening times</div>
     </footer>
 </body>
+<script src="./js/scripts.js"></script>
+<script src="./js/script2.js"></script>
+<script src="./js/validation.js"></script>
 </html>
